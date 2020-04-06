@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Exercise_Menu</string>
+    <string name="labelapp">LOGIN USER</string>
+    <string name="un">Username</string>
+    <string name="ps">Password</string>
+    <string name="btn">Sign_in</string>
+    <string name="hsl">Ini tampilan hasil</string>
+    <string name="in_ps">Masukkan password</string>
+    <string name="in_un">Masukkan username</string>
+
+    //page 2
+    <string name="judulPage2"> Menu Hitung Bangun Datar</string>
+</resources>
