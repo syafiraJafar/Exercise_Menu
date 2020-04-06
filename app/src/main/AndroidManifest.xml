@@ -9,7 +9,17 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".page_2"></activity>
+        <activity android:name=".L_Trapesium"></activity>
+        <activity android:name=".K_Trapesium" />
+        <activity android:name=".L_Segitiga" />
+        <activity android:name=".K_Segitiga" />
+        <activity android:name=".L_persegipanjang" />
+        <activity android:name=".K_Persegipanjang" />
+        <activity android:name=".L_Persegi" />
+        <activity android:name=".K_Persegi" />
+        <activity android:name=".L_Lingkaran" />
+        <activity android:name=".K_Lingkaran" />
+        <activity android:name=".page_2" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

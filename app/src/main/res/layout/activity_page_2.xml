@@ -113,7 +113,7 @@
                 android:orientation="vertical">
 
                 <Button
-                    android:id="@+id/power"
+                    android:id="@+id/off"
                     android:layout_width="50dp"
                     android:layout_height="50dp"
                     android:layout_gravity="bottom|end"
