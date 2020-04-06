@@ -10,4 +10,10 @@
 
     //page 2
     <string name="judulPage2"> Menu Hitung Bangun Datar</string>
+    <string name="persegi">PERSEGI</string>
+    <string name="persegiPanjang">PERSEGI PANJANG</string>
+    <string name="lingkaran">LINGKARAN</string>
+    <string name="segitiga">SEGITIGA</string>
+    <string name="trapesium">TRAPESIUM</string>
+    <string name="nimNma">20180140070-Syafira jafar</string>
 </resources>

@@ -6,22 +6,144 @@
     android:layout_height="match_parent"
     tools:context=".page_2">
 
-    <LinearLayout
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="@color/BG_page2">
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
 
-        <TextView
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:text="Menu Hitung Bangun Datar"
-            android:textAlignment="center"
-            android:textColor="@color/judul"
-            android:textSize="30dp"
-            android:textStyle="italic|bold" />
+            android:layout_height="match_parent"
+            android:background="@color/BG_page2"
+            android:orientation="vertical">
 
-    </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Menu Hitung Bangun Datar"
+                android:textAlignment="center"
+                android:textColor="@color/judul"
+                android:textSize="30dp"
+                android:textStyle="italic|bold"
+                android:layout_marginBottom="50dp"/>
+
+            <TableLayout
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="50dp">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <Button
+                        android:id="@+id/persegi"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_marginBottom="50dp"
+                        android:layout_marginRight="50dp"
+                        android:background="@mipmap/persegi"
+                        android:text="@string/persegi"/>
+                    <Button
+                        android:id="@+id/lingkaran"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginBottom="100dp"
+                        android:background="@mipmap/lingkaran"
+                        android:text="@string/lingkaran"/>
+                </TableRow>
+            </TableLayout>
+
+            <TableLayout
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <Button
+                        android:id="@+id/persegipjg"
+                        android:layout_width="180dp"
+                        android:layout_height="100dp"
+                        android:layout_marginBottom="50dp"
+                        android:layout_marginRight="30dp"
+                        android:background="@mipmap/persegipanjang"
+                        android:text="@string/persegiPanjang"/>
+                    <Button
+                        android:id="@+id/segitiga"
+                        android:layout_width="140dp"
+                        android:layout_height="100dp"
+                        android:layout_marginRight="30dp"
+                        android:layout_marginBottom="100dp"
+                        android:background="@mipmap/segitiga"
+                        android:text="@string/segitiga"/>
+                </TableRow>
+            </TableLayout>
+
+            <TableLayout
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <Button
+                        android:id="@+id/trapesium"
+                        android:layout_width="250dp"
+                        android:layout_height="100dp"
+                        android:layout_marginBottom="50dp"
+                        android:layout_marginRight="50dp"
+                        android:background="@mipmap/jajar_genjang"
+                        android:text="@string/trapesium"/>
+                </TableRow>
+            </TableLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="145dp"
+                android:layout_marginTop="25dp"
+                android:gravity="bottom"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/power"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="bottom|end"
+                    android:background="@mipmap/onoff"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="end"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="@mipmap/pembuat" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="@string/nimNma"
+                    android:textSize="3pt"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
 
 
 
